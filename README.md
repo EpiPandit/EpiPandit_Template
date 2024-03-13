@@ -1,7 +1,8 @@
-# WildAlert by UC Davis, Wildlife Neighbours Database Project and EpiEcos
+# Template GitHub Repository for EpiPandit Lab, 
+## EpiPandit Lab focuses on quantitative veterinary epidemiology and disease ecology
 ==============================
 
-A data-driven approach is used to detect early signs of alert among wild animals in order to prevent endemics among them.
+Text summarizing your project.
 
 ## Project Organization
 ------------
@@ -18,7 +19,7 @@ A data-driven approach is used to detect early signs of alert among wild animals
     │
     ├── notebooks          <- Jupyter notebooks. The naming convention is a date (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `231025-srm-data-exploration`.
+    │                         `03132024-pranav-data-exploration`.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -36,7 +37,7 @@ A data-driven approach is used to detect early signs of alert among wild animals
     │   ├── models         <- Scripts to train models and then use trained models to make
     │   │   │                 predictions
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │   └── visualization  <- Scripts to create exploratory and results-oriented visualizations
 
 --------
 

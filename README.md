@@ -51,47 +51,10 @@ Text summarizing your project.
 
 ```bash
 git clone
-cd WildAlertModels
+cd EpiPandit_Template
 make conda-create
-conda activate wildalert
+conda activate EpiPandit_Template
 make setup
 jupyter notebook
 ```
-
-## Run the WNDP Model API
-```bash
-# src/app/main.py -> change the model checkpoint as CKPT_PATH
-uvicorn src.app.main:app --reload
-
-# Visit: localhost:8000/predict/docs
-
-# sample query to the model API
-curl -X 'POST' \
-  'localhost:8000/predict' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{"text": "Fell from nest. fall, underweight, nestling. GI / Vent: scant greenish stool, some dried stool on feet and abdomen. energetic"}'
-
-# sample response
-{
-  "prediction":["gastrointestinal_disease"],
-  "scores":
-    {
-      "clinically_healthy":0.000958,
-      "dermatologic_disease":0.001603,
-      "gastrointestinal_disease":0.998104,
-      "hematologic_disease":0.001031,
-      "neurologic_disease":0.000643,
-      "nonspecific":0.001958,
-      "nutritional_disease":0.002134,
-      "ocular_disease":0.000980,
-      "physical_injury":0.002120,
-      "respiratory_disease":0.001215,
-      "urogenital_disease":0.000677
-    }
-}
-```
-
-
-
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>.</small></p>

@@ -1,5 +1,5 @@
-# Template GitHub Repository for EpiPandit Lab, 
-## EpiPandit Lab focuses on quantitative veterinary epidemiology and disease ecology
+# Template GitHub Repository for EpiPandit Lab
+## Quantitative veterinary epidemiology and disease ecology lab
 ==============================
 
 Text summarizing your project.
